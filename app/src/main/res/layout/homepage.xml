@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="50dp"
+        android:text="@string/tv_priceChecker"
+        android:textAllCaps="true"
+        android:textColor="@color/fontColor"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <pl.bclogic.pulsator4droid.library.PulsatorLayout
+        android:id="@+id/pulsator"
+        android:layout_width="1100dp"
+        android:layout_height="1100dp"
+        android:layout_marginLeft="-100dp"
+        android:layout_marginBottom="-100dp"
+        app:pulse_color="@color/colorAccentGreen"
+        app:pulse_count="4"
+        app:pulse_duration="7000"
+        app:pulse_interpolator="Linear"
+        app:pulse_repeat="0"
+        app:pulse_startFromScratch="false">
+
+    </pl.bclogic.pulsator4droid.library.PulsatorLayout>
+
+</LinearLayout>

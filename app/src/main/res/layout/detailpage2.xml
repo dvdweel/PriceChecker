@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView_detailTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product detail"
+        android:textAllCaps="true"
+        android:textColor="@color/fontColor"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView_detail"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textView_detailTitle"
+        app:srcCompat="@drawable/imaginedragons"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Imagina Dragons - Smoke + Mirrors"
+        android:layout_below="@+id/imageView_detail"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView_price"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Prijs bij Bol.com: 9.99"
+        android:layout_below="@+id/textView_ean"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView_ean"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="602547161697"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView_detailsame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Where to buy?"
+        android:textAllCaps="true"
+        android:textColor="@color/fontColor"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView_price"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/imaginedragons"
+        android:layout_below="@+id/textView_detailsame"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6.20"
+        android:layout_below="@+id/imageView1"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignStart="@+id/imageView1"
+        android:layout_alignRight="@+id/imageView1"
+        android:textAlignment="center"
+        android:layout_alignEnd="@+id/imageView1" />
+
+    <TextView
+        android:id="@+id/textView_linkebayimagine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/linkebayimagine"
+        android:layout_below="@+id/textView5"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_alignRight="@+id/textView5"
+        android:textAlignment="center"
+        android:layout_alignEnd="@+id/textView5" />
+
+</RelativeLayout>
